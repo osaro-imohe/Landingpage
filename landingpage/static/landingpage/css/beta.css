@@ -51,6 +51,7 @@ h1{
 #betarow{
   border: none;
   margin-bottom: 50px;
+  margin-left: 4px;
 }
 .betarowleft{
   border: 1px solid lightgray;
