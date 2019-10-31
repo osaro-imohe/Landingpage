@@ -1,0 +1,40 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'landingpage/css/beta.css'%}">
+    <title>Opps!</title>
+  </head>
+  <body>
+    <div class="betaheader col-sm-12">
+      <a href="{% url 'landingpage:home'%}" class="a2">
+        <h1>Rivvy</h1>
+      </a>
+    </div>
+    <div class="betabody">
+      <p class="betatextone col-sm-8">Oops! Looks like you caught us before we're ready.</p>
+      <p class="betatexttwo col-sm-8">Have no fear! The Rivvy team is working hard to deliver a product that you will love. Things are going great and we'll be live before you know it. If you'd like us to send you a reminder when we're ready, feel free to put in your email below:</p>
+      <form class="" method="post">
+        {%csrf_token%}
+        <div class="row col-sm-6"  id="betarow">
+            <input type="email" name="email" value="" placeholder="Your email" class="col-sm-10 betarowleft">
+            <button type="submit" name="button" class="col-sm-2 betarowright">
+              <p id="betarowrighttext">Join</p>
+            </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

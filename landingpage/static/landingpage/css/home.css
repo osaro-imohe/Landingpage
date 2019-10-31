@@ -1,0 +1,328 @@
+html{ margin:0; padding:0; height:100%; width:100%;}
+body{
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  /* overflow-y:scroll !important; */
+}
+.container1{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding: 2.5%;
+  overflow-y:scroll !important;
+}
+.container2{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  /* overflow-y:scroll !important; */
+}
+.pagenav{
+  height: 10%;
+  background-color: white;
+}
+.menubutton{
+  right: 0;
+  /* position: absolute; */
+}
+.a{
+  text-decoration: none !important;
+  border: none !important;
+}
+.a2{
+  text-decoration: none !important;
+  border: none !important;
+  color: #000000 !important;
+}
+h1{
+  display: inline;
+  font-size: 25px;
+  font-family: cooper std;
+  font-weight: 600 !IMPORTANT;
+}
+.explainerdiv1{
+  background-color:white;
+  padding-bottom: 30px;
+}
+.explainerdiv1leftheadertext{
+  margin-top: 80px;
+  font-size: 26px;
+  font-weight: 600;
+  color:#707070;
+  font-family: Cooper Std;
+}
+.explainerdiv1lefttext{
+  font-size: 20px;
+  font-weight: 400;
+  color: #707070;
+  font-family: Myriad Pro;
+}
+.explainerdiv1button{
+  width: 200px;
+  height: 50px;
+  background-color: #C2CFF3;
+  margin-top: 40px !important;
+}
+.explainerdiv1buttontext{
+  font-size: 12px;
+  height: 100%;
+  padding: 17px;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  font-family: Cooper Std;
+}
+.explainerdiv2{
+  background-color: white;
+  margin-bottom: 70px;
+}
+.prop1{
+  margin-top:40px;
+  height: 150px;
+  background-color: #C2CFF3;
+  border-radius: 200px;
+}
+.prop2{
+  height: 10px;
+  background-color: #C2CFF3;
+  margin-bottom: 6px;
+  width: 100px;
+  border-radius: 1000px;
+}
+.prop3{
+  height: 10px;
+  width: 85px;
+  background-color: #C2CFF3;
+  border-radius: 1000px;
+}
+.propcontainer1{
+  float:right;
+  margin-top: 80px;
+  margin-right: -40px;
+}
+
+.explainerdiv2headertext{
+  position: absolute;
+  margin-right: -40px;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  font-family: Cooper Std;
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+.image1{
+  margin-top: 40px;
+}
+.explainerdiv2text{
+  position: absolute;
+  margin-right: -40px;
+  top: 0;
+  right: 0;
+  margin-top: 90px;
+  font-family: Myriad Hebrew;
+  color: #707070;
+}
+
+.explainerdiv3headertext{
+  margin-left: 30px;
+  font-size: 30px;
+  font-family: Cooper Std;
+  font-weight: 800;
+  color: #707070;
+}
+
+.prop4{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #C2CFF3;
+  text-align: center;
+  padding: 8px;
+  margin-left: 30px;
+}
+.explainerdiv3{
+  margin-bottom: 60px;
+}
+
+.explainerdiv3subheader1{
+  margin-left: 30px;
+  font-size: 30px;
+  font-family: Cooper Std;
+  font-weight: 800;
+  color: #707070;
+}
+.prop4text{
+  font-family: Cooper Std;
+  font-weight: 800;
+  color: #707070;
+}
+
+.explainerdiv3subtext1{
+  font-family: Myriad Pro;
+  font-size: 15px;
+  margin-left: 80px;
+  color: #707070;
+  font-weight: 400px;
+}
+
+.prop5{
+  height: 250px;
+  width: 700px;
+  background-color:#FEC4C4;
+  border-radius: 1000px;
+  transform: rotate(207deg);
+  margin-left: -240px;
+}
+
+.prop6{
+  width: 300px;
+  height: 30px;
+  background-color: #FEC4C4;
+  border-radius: 1000px;
+  transform: rotate(207deg);
+  margin-left: -97px;
+}
+
+.image2{
+  position: absolute;
+  z-index: 2;
+  width: 20em;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 8em;
+  margin-bottom: 15px;
+}
+
+.explainerdiv4{
+  margin-bottom: 150px;
+}
+
+.explainerdiv4headertext1{
+  font-size: 20px;
+  color: #707070;
+  font-weight: 800;
+  text-align: center;
+  font-family: Cooper Std;
+  margin-top: 30px;
+}
+
+.explainerdiv4subheadertext1{
+  font-size: 20px;
+  font-weight: 30px;
+  font-family: Myriad Pro;
+  color: #707070;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.explainerdiv4headertext1-2{
+  font-size: 20px;
+  color: #707070;
+  font-weight: 800;
+  text-align: center;
+  font-family: Cooper Std;
+  margin-top: 150px;
+}
+
+.explainerdiv5{
+  margin-bottom: 50px;
+}
+.explainerdiv4headertext1-3{
+  font-size: 20px;
+  color: #707070;
+  font-weight: 800;
+  text-align: center;
+  font-family: Cooper Std;
+  margin-top: 100px !important;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.explainerdiv5subdiv{
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.explainerdiv5subdivinnerdiv{
+  height: 100%;
+  background-color: white;
+  border: 1px solid #F0F2F3;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.explainerdiv5subdivinnerdivimages{
+  width: 50%;
+}
+
+.explainerdiv5subdivinnerdivtext{
+  font-size: 15px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-family: Cooper Std;
+}
+
+.explainerdiv6{
+  height: 400px;
+  background-color: #4972D2;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.explainerdiv6header1{
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-family: Cooper Std;
+  margin-top: 30px;
+}
+
+.explainerdiv6header2{
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  font-family: Cooper Std;
+  margin-top: 30px;
+}
+
+.explainerdiv6header3{
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-family: Cooper Std;
+  margin-top: 30px;
+  margin-bottom: 2rem !important;
+}
+
+.explainerdiv6button{
+  width: 200px;
+  height: 50px;
+  background-color: #0BA0BE;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 15px !important;
+  color: white;
+  font-family:Cooper Std;
+  font-weight: 800;
+}

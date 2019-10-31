@@ -1,0 +1,117 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'landingpage/css/pricing.css' %}">
+    <title>Rivvy pricing</title>
+  </head>
+  <body>
+
+    <div class="container1 col-sm-12">
+      <div class="prop1">
+
+      </div>
+        <div class="container2 col-sm-12">
+          <div class="pagenav">
+            <a href="{% url 'landingpage:home'%}" class="a2">
+              <h1>Rivvy</h1>
+            </a>
+          </div>
+          <p class="container1header">Choose the best plan for your business </p>
+          <div id="pricingoptionsdiv" class="row">
+            <div class="container2leftoption col-sm-6">
+              <div class="container2leftoptioninner col-sm-10">
+                <p class="pricingheaders">Rivvy Starter</p>
+                <div class=" pricerow row">
+                  <p class="price">$19</p>
+                  <p class="month">/mo</p>
+                </div>
+                <a href="{% url 'landingpage:beta'%}" class="a">
+                  <div class="pricingoptionsonebutton2 col-sm-10 col-lg-8">
+                    <p class="trialonetext">Start a free 14 day trial</p>
+                    <p class="trialonesubtext">no credit card required</p>
+                  </div>
+                </a>
+                <br>
+                <br>
+                <p class="pricingheadertwo">Manage all your company’s projects, work, and communications in one place.</p>
+                <div class="pros col-sm-12">
+                    <p>1 User</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                    <p>$3500 monthly transaction limit</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                    <p>Excellent Support</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                    <p>Secure data encryption</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                    <p>Unlimited virtual receipts</p>
+                </div>
+                </div>
+            </div>
+            <div class="container2rightoption col-sm-6">
+              <div class="container2rightoptioninner col-sm-10">
+                <p class="pricingheaders">Rivvy Enterprise</p>
+                <div class="pricerow row">
+                  <p class="price">$49</p>
+                  <p class="month">/mo</p>
+                </div>
+                <a href="{% url 'landingpage:beta'%}" class="a">
+                  <div class="pricingoptionsonebutton col-sm-10 col-lg-8">
+                    <p class="trialonetext">Start a free 14 day trial</p>
+                    <p class="trialonesubtext">no credit card required</p>
+                  </div>
+                </a>
+                <br>
+                <br>
+                <p class="pricingheadertwo">Manage all your company’s projects, work, and communications in one place.</p>
+
+                <div class="pros col-sm-12">
+                  <p>Unlimited users</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                  <p>No monthly transaction limit</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                  <p>VIP support (jump to the front of the line)</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                  <p>Advanced client access</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                    <p>Secure data encryption</p>
+                </div>
+
+                <div class="pros col-sm-12">
+                    <p>Unlimited virtual receipts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
