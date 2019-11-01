@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from landingpage.models import Email
 
 def home(request):
@@ -12,7 +12,9 @@ def beta(request):
         email = request.POST.get("email")
         detail = Email(useremail = email,)
         detail.save()
-        print(email)
-        return render(request, 'landingpage/beta.html')
+        return redirect('landingpage:done')
     else:
         return render(request, 'landingpage/beta.html')
+
+def done(request):
+    return render(request, 'landingpage/done.html')

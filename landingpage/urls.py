@@ -25,4 +25,5 @@ urlpatterns = [
     path('', views.home, name='home',),
     path('pricing', views.pricing, name='pricing',),
     path('beta', views.beta, name='beta',),
+    path('done', views.done, name='done',),
 ]
